@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color: orangered;
 }
 
 .image {
@@ -7,5 +7,5 @@ h1 {
 }
 
 .bord {
-  border: 10px solid #ccc;
+  border: 10px solid orangered;
 }
