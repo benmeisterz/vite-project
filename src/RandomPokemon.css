@@ -1,0 +1,11 @@
+h1 {
+  color: blue;
+}
+
+.image {
+  width: 150px;
+}
+
+.bord {
+  border: 10px solid #ccc;
+}
