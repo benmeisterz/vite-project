@@ -36,8 +36,8 @@ function App() {
       <Slots val1="🍒" val2="🍌" val3="🍒" /> */}
       {/* <ShoppingList items={data} /> */}
       {/* <PropertyList properties={properties} /> */}
-      <Clicker message="HI!!!" buttonText="Please Click Me" />
-      {/* <Counter/> */}
+      {/* <Clicker message="HI!!!" buttonText="Please Click Me" /> */}
+      <Counter />
     </>
   )
 }

@@ -1,12 +1,20 @@
 import { useState } from 'react'
 
 export default function Counter() {
-    const [state, setState] = useState(0);
+    const [num, setNum] = useState(0);
+
+    const add = () => {
+        setNum(num + 1)
+    }
+    const minus = () => {
+        setNum(num - 1)
+    }
+
     return (
         <div>
-            <button>-</button>
-            <p>{useState}</p>
-            <button>+</button>
+            <button onClick={add}>+</button>
+            <h1>{num}</h1>
+            <button onClick={minus}>-</button>
         </div>
     )
 }
