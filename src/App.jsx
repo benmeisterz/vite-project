@@ -7,6 +7,7 @@ import ShoppingList from './ShoppingList'
 import PropertyList from './PropertyList'
 import Clicker from './Clicker'
 import Counter from './Counter'
+import Toggler from './Toggler'
 
 
 // const data = [
@@ -37,7 +38,10 @@ function App() {
       {/* <ShoppingList items={data} /> */}
       {/* <PropertyList properties={properties} /> */}
       {/* <Clicker message="HI!!!" buttonText="Please Click Me" /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Toggler />
+
+
     </>
   )
 }
