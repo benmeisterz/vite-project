@@ -8,8 +8,8 @@ import PropertyList from './PropertyList'
 import Clicker from './Clicker'
 import Counter from './Counter'
 import Toggler from './Toggler'
+import ColorBox from './Colorbox'
 import ColorBoxGrid from './ColorBoxGrid'
-
 
 // const data = [
 //   { id: 1, item: "eggs", quantity: 12, completed: false },
@@ -61,11 +61,6 @@ function App() {
       {/* <Counter /> */}
       {/* <Toggler /> */}
       <ColorBoxGrid colors={colors} />
-      <ColorBoxGrid colors={colors} />
-      <ColorBoxGrid colors={colors} />
-      <ColorBoxGrid colors={colors} />
-      <ColorBoxGrid colors={colors} />
-
     </>
   )
 }
